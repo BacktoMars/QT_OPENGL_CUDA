@@ -1,0 +1,94 @@
+﻿Build started 5/21/2013 2:33:06 AM.
+     1>Project "E:\CC++\QT_CUDA\QT_OPENGL_CUDA\test1\test1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\QT_OPENGL_CUDA.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Moc'ing test1.h...
+         Uic'ing test1.ui...
+         Moc'ing appglwidget.h...
+         Rcc'ing test1.qrc...
+     1>RCC : warning : No resources in 'E:\CC++\QT_CUDA\QT_OPENGL_CUDA\test1\test1.qrc'.
+         
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+         Found "CudaToolkitCustomDir".
+         Found "AdditionalDeps".
+         Found "CompileOut".
+         Found "Include".
+         Found "UseHostInclude".
+         Found "Keep".
+         Found "KeepDir".
+         Found "GenerateRelocatableDeviceCode".
+         Found "NvccCompilation".
+         Found "NvccPath".
+         Found "RequiredIncludes".
+         Found "TargetMachinePlatform".
+         Found "CInterleavedPTX".
+         Found "CodeGeneration".
+         Found "GPUDebugInfo".
+         Found "GenerateLineInfo".
+         Found "MaxRegCount".
+         Found "PtxAsOptionV".
+         Found "AdditionalCompilerOptions".
+         Found "Defines".
+         Found "UseHostDefines".
+         Found "Emulation".
+         Found "HostDebugInfo".
+         Found "FastMath".
+         Found "Optimization".
+         Found "Runtime".
+         Found "RuntimeChecks".
+         Found "TypeInfo".
+         Found "Warning".
+         Found "AdditionalOptions".
+         Found "CommandLineTemplate".
+         Found "PerformDeviceLink".
+         Found "LinkOut".
+         Found "AdditionalLibraryDirectories".
+         Found "UseHostLibraryDirectories".
+         Found "AdditionalDependencies".
+         Found "UseHostLibraryDependencies".
+         Found "GPUDebugInfo".
+         Found "Optimization".
+         Found "CodeGeneration".
+         Found "TargetMachinePlatform".
+         Found "Warning".
+         Found "RuntimeChecks".
+         Found "Runtime".
+         Found "TypeInfo".
+         Found "AdditionalCompilerOptions".
+         Found "Inputs".
+         Found "AdditionalOptions".
+         Found "CommandLineTemplate".
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.0.2\5.0.2\msvc2010_opengl\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtCore /IC:\Qt\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtGui /IC:\Qt\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtWidgets /IC:\Qt\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtOpenGL /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_OPENGL_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt appglwidget.cpp GeneratedFiles\Release\moc_appglwidget.cpp GeneratedFiles\Release\moc_test1.cpp main.cpp test1.cpp
+         appglwidget.cpp
+         moc_appglwidget.cpp
+         moc_test1.cpp
+         main.cpp
+         test1.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.0.2\5.0.2\msvc2010_opengl\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtCore /IC:\Qt\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtGui /IC:\Qt\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtWidgets /IC:\Qt\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtOpenGL /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_OPENGL_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_test1.cpp
+         qrc_test1.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\CC++\QT_CUDA\QT_OPENGL_CUDA\Win32\Release\\QT_OPENGL_CUDA.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.0.2\5.0.2\msvc2010_opengl\lib /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\lib\Win32" qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib cudart.lib Qt5OpenGL.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\QT_OPENGL_CUDA.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"E:\CC++\QT_CUDA\QT_OPENGL_CUDA\Win32\Release\QT_OPENGL_CUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\CC++\QT_CUDA\QT_OPENGL_CUDA\Win32\Release\QT_OPENGL_CUDA.lib" /MACHINE:X86 Release\kernel.cu.obj
+         Release\appglwidget.obj
+         Release\qrc_test1.obj
+         Release\moc_appglwidget.obj
+         Release\moc_test1.obj
+         Release\main.obj
+         Release\test1.obj
+         test1.vcxproj -> E:\CC++\QT_CUDA\QT_OPENGL_CUDA\Win32\Release\QT_OPENGL_CUDA.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\CC++\QT_CUDA\QT_OPENGL_CUDA\Win32\Release\\QT_OPENGL_CUDA.exe;#1" /manifest Release\QT_OPENGL_CUDA.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\QT_OPENGL_CUDA.unsuccessfulbuild".
+         Touching "Release\QT_OPENGL_CUDA.lastbuildstate".
+     1>Done Building Project "E:\CC++\QT_CUDA\QT_OPENGL_CUDA\test1\test1.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.94

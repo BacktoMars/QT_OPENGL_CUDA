@@ -5,14 +5,16 @@
 
 class AppGLWidget : public QGLWidget
 {
-	Q_OBJECT
+    Q_OBJECT
 
-public:
-	AppGLWidget(QWidget *parent);
-	~AppGLWidget();
+    public:
+        AppGLWidget(QWidget *parent);
+        ~AppGLWidget();
+        void initializeGL();
+        void paintGL();
+        void resizeGL(int w, int h);
+    private:
 
-private:
-	
 };
 
 

@@ -124,7 +124,8 @@ extern "C" void launch_Mandelbrot_kernel(uchar4* ptr, int width, int height)
 	dim3    blocks(width/16, height/16);
 	dim3    threads(16,16);
 
-	// set palette
+	// set palette according to http://wojanton.ovh.org/ang/fractals/mandelbrotCpp.php
+
 	float* palette;
 	palette = (float*)malloc(255*3*sizeof(float));
 

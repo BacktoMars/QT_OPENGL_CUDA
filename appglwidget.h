@@ -15,6 +15,8 @@ class AppGLWidget : public QGLWidget
         void resizeGL(int w, int h);
     private:
 
+		int XSize;
+		int YSize;
 };
 
 

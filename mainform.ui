@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>504</width>
-    <height>297</height>
+    <width>705</width>
+    <height>381</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,8 +18,8 @@
     <rect>
      <x>20</x>
      <y>20</y>
-     <width>151</width>
-     <height>231</height>
+     <width>341</width>
+     <height>271</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout"/>
@@ -27,8 +27,8 @@
   <widget class="QLineEdit" name="lineEdit">
    <property name="geometry">
     <rect>
-     <x>260</x>
-     <y>40</y>
+     <x>460</x>
+     <y>30</y>
      <width>121</width>
      <height>21</height>
     </rect>
@@ -37,8 +37,8 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>190</x>
-     <y>40</y>
+     <x>390</x>
+     <y>30</y>
      <width>66</width>
      <height>17</height>
     </rect>
@@ -50,8 +50,8 @@
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>390</x>
-     <y>30</y>
+     <x>590</x>
+     <y>20</y>
      <width>98</width>
      <height>27</height>
     </rect>
@@ -63,8 +63,8 @@
   <widget class="QTextEdit" name="textEdit">
    <property name="geometry">
     <rect>
-     <x>190</x>
-     <y>70</y>
+     <x>390</x>
+     <y>60</y>
      <width>301</width>
      <height>181</height>
     </rect>
@@ -73,8 +73,8 @@
   <widget class="QPushButton" name="pushButton_RUNCUDA">
    <property name="geometry">
     <rect>
-     <x>270</x>
-     <y>260</y>
+     <x>390</x>
+     <y>270</y>
      <width>75</width>
      <height>23</height>
     </rect>
@@ -83,7 +83,37 @@
     <string>Run CUDA</string>
    </property>
   </widget>
+  <widget class="QPushButton" name="pushButton_EXIT">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>270</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>pushButton_EXIT</sender>
+   <signal>clicked()</signal>
+   <receiver>MainForm</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>657</x>
+     <y>281</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>352</x>
+     <y>190</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>

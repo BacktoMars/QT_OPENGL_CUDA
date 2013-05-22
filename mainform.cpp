@@ -44,3 +44,10 @@ void MainForm::on_pushButton_clicked()
     cursor.movePosition(QTextCursor::Start, QTextCursor::MoveAnchor, 1);
 
 }
+
+void MainForm::on_pushButton_RUNCUDA_clicked()
+{
+	//printf("Run CUDA button pushed\n");
+	launch_kernel();
+	printf("Kernel ended\n");
+}

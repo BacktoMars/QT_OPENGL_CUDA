@@ -5,7 +5,7 @@
 : QGLWidget(parent)
 {
 
-    launch_kernel();
+    //launch_kernel();
     printf("Kernel launched!\n");
 }
 

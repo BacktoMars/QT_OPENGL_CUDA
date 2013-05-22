@@ -1,11 +1,14 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include <QtGui/QMainWindow>
-#include <QMenuBar>
-#include <QAction>
-#include <QApplication>
+//#include <QtGui/QMainWindow>
+#include <QtWidgets/QMainWindow>
+//#include <QMenuBar>
+//#include <QAction>
+//#include <QApplication>
 #include "appglwidget.h"
+#include "mainwindow.h"
+
 class MainWindow : public QMainWindow
 {
     Q_OBJECT

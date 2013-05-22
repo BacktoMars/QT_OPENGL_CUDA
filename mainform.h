@@ -2,7 +2,7 @@
 #define MAINFORM_H
 
 #include <QWidget>
-#include <appglwidget.h>
+#include "appglwidget.h"
 
 namespace Ui {
 class MainForm;
@@ -18,10 +18,13 @@ public:
     
 private slots:
     void on_pushButton_clicked();
+    void on_pushButton_RUNCUDA_clicked();
 
 private:
     AppGLWidget *glWidget;
     Ui::MainForm *ui;
 };
+
+//extern "C" void launch_kernel();
 
 #endif // MAINFORM_H

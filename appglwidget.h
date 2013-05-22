@@ -2,6 +2,7 @@
 #define APPGLWIDGET_H
 
 #include <QGLWidget>
+#include "SimplePBO.h"
 
 class AppGLWidget : public QGLWidget
 {
@@ -17,6 +18,7 @@ class AppGLWidget : public QGLWidget
 
 		int XSize;
 		int YSize;
+		SimplePBO spbo;
 };
 
 

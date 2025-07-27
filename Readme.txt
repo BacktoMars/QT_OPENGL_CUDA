@@ -2,9 +2,6 @@
 
 
     A QT interface for OpenGL and CUDA
-    Author: Xining Du
-    Email: xiningdu@gmail.com
-    Date: 05/21/2013
 
 ----------------------------------------------------
 
